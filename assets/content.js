@@ -33,6 +33,11 @@
 // already evaluated it and it is accepted as correct, unlike several prior
 // tools in this atlas where every reference was checked against a primary
 // source. Every entry's `kind` field says so plainly.
+// Date this tool's content and citations were last built/checked
+// together (see assets/app.js's References summary, and the hub
+// README's "Content search index"-adjacent conventions doc).
+const VERIFIED = "2026-11-06";
+
 const REFERENCES = [
   { id: 1, kind: "As cited in the manuscript; not independently re-verified.",
     text: "Goldstein DS. Adrenal responses to stress. Cellular and Molecular Neurobiology. 2010;30(8):1433-1440.",
